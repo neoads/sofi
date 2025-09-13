@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import chipImage from './assets/chip.jpg';
+import conspiraPizzaImage from './assets/conspira_pizza.png';
 import './App.css';
 
 function App() {
@@ -8,72 +8,76 @@ function App() {
       <Header />
       <main className="container mx-auto p-4">
         <section className="my-8 text-center">
-          <img src={chipImage} alt="Chip de Cartão" className="mx-auto mb-4 w-24 h-24" />
-          <h1 className="text-4xl font-bold">Pink Floyd Moveis e Decoracoes LTDA</h1>
-          <h2 className="text-2xl mb-8">68.328.681/0001-55</h2>
+          <img src={conspiraPizzaImage} alt="Conspira Pizza Artesanal" className="mx-auto mb-4 w-48 h-48" />
+          <h1 className="text-4xl font-bold">Conspira Pizza Artesanal</h1>
+          <h2 className="text-2xl mb-8">33.093.423/0001-52</h2>
           <h2 className="text-3xl font-bold mb-4">NOSSA MISSÃO:</h2>
           <p className="text-lg italic max-w-3xl mx-auto">
-            "Oferecer móveis e soluções de decoração com qualidade, estilo e inovação, transformando ambientes em espaços únicos e acolhedores. Com mais de 30 anos de tradição no mercado, buscamos superar as expectativas dos nossos clientes através de um atendimento personalizado, produtos duráveis e design inspirador, sempre com transparência e comprometimento. Nossa missão é ajudar a criar lares que reflitam personalidade, conforto e sofisticação, tornando cada projeto uma experiência memorável."
+            "Oferecer as mais deliciosas pizzas artesanais com qualidade, sabor e inovação, transformando momentos em experiências únicas e acolhedoras. Com mais de 5 anos de tradição no mercado, buscamos superar as expectativas dos nossos clientes através de um atendimento personalizado, produtos frescos e design inspirador, sempre com transparência e comprometimento. Nossa missão é ajudar a criar memórias que reflitam alegria, conforto e satisfação, tornando cada pedido uma experiência memorável."
           </p>
         </section>
 
         <section className="my-8 text-center">
           <h2 className="text-3xl font-bold mb-4">CONTATO:</h2>
-          <p className="text-lg">Telefone: (11) 94098-2632</p>
-          <p className="text-lg">E-mail: mariana.33de.carvalho@outlook.com</p>
-          <p className="text-lg">INSTAGRAM.</p>
+          <p className="text-lg">Telefone: (31) 973198749</p>
+          <p className="text-lg">E-mail: contate@corssar.com</p>
+          <p className="text-lg"><a href="https://www.instagram.com/conspirapizza/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">INSTAGRAM</a></p>
         </section>
 
         <section className="my-8 text-center">
           <h2 className="text-3xl font-bold mb-4">QUEM SOMOS?</h2>
           <p className="text-lg max-w-3xl mx-auto text-justify">
-            A <strong className="font-bold">Pink Floyd Móveis e Decorações LTDA</strong>, registrada sob o CNPJ <strong className="font-bold">68.328.681/0001-55</strong>, foi fundada em <strong className="font-bold">14 de agosto de 1992</strong>, na cidade de <strong className="font-bold">São Paulo, São Paulo</strong>. Como uma empresa consolidada no mercado, atuamos no segmento de <strong className="font-bold">comércio varejista de móveis e decorações</strong>, oferecendo produtos que unem <strong className="font-bold">design, qualidade e funcionalidade</strong> para transformar ambientes residenciais e comerciais.
+            A <strong className="font-bold">Conspira Pizza Artesanal</strong>, registrada sob o CNPJ <strong className="font-bold">33.093.423/0001-52</strong>, foi fundada em <strong className="font-bold">20 de março de 2019</strong>, na cidade de <strong className="font-bold">São Paulo, São Paulo</strong>. Como uma empresa consolidada no mercado, atuamos no segmento de <strong className="font-bold">pizzaria artesanal e delivery</strong>, oferecendo produtos que unem <strong className="font-bold">sabor, qualidade e agilidade</strong> para transformar refeições em momentos especiais.
           </p>
           <p className="text-lg max-w-3xl mx-auto text-justify mt-4">
-            Nossa atividade principal, conforme a Receita Federal, é <strong className="font-bold">Comércio Varejista de Móveis (CNAE 47.54-7-01)</strong>, abrangendo desde móveis planejados até peças decorativas que complementam e personalizam cada espaço. Com mais de <strong className="font-bold">30 anos de experiência</strong>, nos destacamos pela <strong className="font-bold">variedade de estilos, durabilidade dos produtos e atendimento especializado</strong>, sempre buscando atender às necessidades e expectativas dos nossos clientes.
+            Nossa atividade principal, conforme a Receita Federal, é <strong className="font-bold">Restaurantes e Similares (CNAE 56.11-2-01)</strong>, abrangendo desde pizzas tradicionais até criações especiais que complementam e personalizam cada pedido. Com mais de <strong className="font-bold">5 anos de experiência</strong>, nos destacamos pela <strong className="font-bold">variedade de sabores, ingredientes frescos e atendimento especializado</strong>, sempre buscando atender às necessidades e expectativas dos nossos clientes.
           </p>
           <p className="text-lg max-w-3xl mx-auto text-justify mt-4">
-            Localizada na <strong className="font-bold">Rua Renato Rinaldi, 1012, Vila Carrão, São Paulo-SP (CEP 03426-000)</strong>, nossa loja é referência no bairro e região, proporcionando uma experiência de compra agradável e personalizada. Valorizamos a <strong className="font-bold">transparência, o bom gosto e a satisfação do cliente</strong>, garantindo que cada projeto seja executado com excelência.
+            Localizada na <strong className="font-bold">Rua General Braulio Guimaraes, 322, Jardim Promissao, São Paulo-SP (CEP 04753-140)</strong>, nossa pizzaria é referência no bairro e região, proporcionando uma experiência de sabor agradável e personalizada. Valorizamos a <strong className="font-bold">transparência, o bom gosto e a satisfação do cliente</strong>, garantindo que cada pedido seja executado com excelência.
           </p>
           <p className="text-lg max-w-3xl mx-auto text-justify mt-4">
-            Na <strong className="font-bold">Pink Floyd Móveis e Decorações LTDA</strong>, acreditamos que <strong className="font-bold">um ambiente bem decorado reflete a personalidade de quem o habita</strong>. Por isso, nosso compromisso vai além da venda de móveis: queremos ajudar você a criar <strong className="font-bold">espaços únicos, confortáveis e cheios de estilo</strong>, seja em casa ou no trabalho.
+            Na <strong className="font-bold">Conspira Pizza Artesanal</strong>, acreditamos que <strong className="font-bold">uma boa pizza reflete a paixão de quem a faz</strong>. Por isso, nosso compromisso vai além da venda de pizzas: queremos ajudar você a criar <strong className="font-bold">momentos únicos, saborosos e cheios de estilo</strong>, seja em casa ou no trabalho.
           </p>
         </section>
 
         <section className="my-8 max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold mb-4">Produtos e Serviços Disponíveis:</h3>
           <ul className="list-disc list-inside text-lg text-left">
-            <li><strong className="font-bold">Móveis para Sala, Quarto, Cozinha e Escritório</strong> – Peças que combinam <strong className="font-bold">design, ergonomia e sofisticação</strong>.</li>
-            <li><strong className="font-bold">Decoração e Acessórios</strong> – Itens que complementam e dão vida aos ambientes.</li>
-            <li><strong className="font-bold">Atendimento Personalizado</strong> – Auxílio na escolha dos melhores produtos para seu espaço.</li>
-            <li><strong className="font-bold">Qualidade e Durabilidade</strong> – Móveis resistentes e feitos para durar.</li>
+            <li><strong className="font-bold">Pizzas Salgadas e Doces</strong> – Sabores que combinam <strong className="font-bold">tradição, criatividade e qualidade</strong>.</li>
+            <li><strong className="font-bold">Bebidas e Acompanhamentos</strong> – Itens que complementam e dão vida à sua refeição.</li>
+            <li><strong className="font-bold">Atendimento Personalizado</strong> – Auxílio na escolha dos melhores sabores para seu paladar.</li>
+            <li><strong className="font-bold">Qualidade e Agilidade</strong> – Pizzas frescas e entregues rapidamente.</li>
           </ul>
         </section>
 
         <section className="my-8 max-w-3xl mx-auto">
           <h3 className="text-2xl font-bold mb-4">Informações da Empresa:</h3>
           <ul className="list-disc list-inside text-lg text-left">
-            <li><strong className="font-bold">Razão Social:</strong> Pink Floyd Móveis e Decorações LTDA</li>
-            <li><strong className="font-bold">CNPJ:</strong> 68.328.681/0001-55</li>
-            <li><strong className="font-bold">Data de Abertura:</strong> 14/08/1992</li>
-            <li><strong className="font-bold">Porte:</strong> Sem Enquadramento</li>
+            <li><strong className="font-bold">Razão Social:</strong> Conspira Pizza Artesanal LTDA</li>
+            <li><strong className="font-bold">CNPJ:</strong> 33.093.423/0001-52</li>
+            <li><strong className="font-bold">Data de Abertura:</strong> 20/03/2019</li>
+            <li><strong className="font-bold">Porte:</strong> Micro Empresa</li>
             <li><strong className="font-bold">Natureza Jurídica:</strong> Sociedade Empresária Limitada</li>
+            <li><strong className="font-bold">Opção pelo MEI:</strong> Não</li>
+            <li><strong className="font-bold">Opção pelo Simples:</strong> Sim</li>
+            <li><strong className="font-bold">Data opção Simples:</strong> 20/03/2019</li>
             <li><strong className="font-bold">Situação Cadastral:</strong> Ativa</li>
+            <li><strong className="font-bold">Data Situação Cadastral:</strong> 20/03/2019</li>
             <li><strong className="font-bold">Tipo:</strong> Matriz</li>
-            <li><strong className="font-bold">Capital Social:</strong> R$ 10.000,00</li>
-            <li><strong className="font-bold">Inscrição Estadual (SP):</strong> 113.476.250.112</li>
+            <li><strong className="font-bold">Capital Social:</strong> R$ 20.000,00</li>
+            <li><strong className="font-bold">Inscrição Estadual (SP):</strong> 123.794.412.110</li>
           </ul>
         </section>
 
         <section className="my-8 max-w-3xl mx-auto text-center">
           <h3 className="text-2xl font-bold mb-4">Localização e Contato:</h3>
-          <p className="text-lg">📍 <strong className="font-bold">Endereço:</strong> Rua Renato Rinaldi, 1012, Vila Carrão, São Paulo-SP, <strong className="font-bold">CEP 03426-000</strong></p>
-          <p className="text-lg">📞 <strong className="font-bold">Telefone/WhatsApp:</strong> (Informe o contato da empresa, se disponível)</p>
-          <p className="text-lg mt-4">Na <strong className="font-bold">Pink Floyd Móveis e Decorações LTDA</strong>, estamos prontos para ajudar você a <strong className="font-bold">criar o lar dos seus sonhos</strong>. Visite-nos e descubra como <strong className="font-bold">móveis bem escolhidos podem transformar qualquer espaço em um lugar especial!</strong> 🛋️✨</p>
+          <p className="text-lg">📍 <strong className="font-bold">Endereço:</strong> Rua General Braulio Guimaraes, 322, Jardim Promissao, São Paulo-SP, <strong className="font-bold">CEP 04753-140</strong></p>
+          <p className="text-lg">📞 <strong className="font-bold">Telefone/WhatsApp:</strong> <a href="https://wa.me/5531973198749" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline">(31) 973198749</a></p>
+          <p className="text-lg mt-4">Na <strong className="font-bold">Conspira Pizza Artesanal</strong>, estamos prontos para ajudar você a <strong className="font-bold">criar os momentos mais saborosos</strong>. Peça já e descubra como <strong className="font-bold">uma pizza bem feita pode transformar qualquer dia em um dia especial!</strong> 🍕✨</p>
         </section>
 
         <section className="my-8 text-center">
-          <h2 className="text-3xl font-bold mb-4">Fale comigo:</h2>
+          <a href="https://wa.me/5531973198749" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline"><h2 className="text-3xl font-bold mb-4">Fale comigo:</h2></a>
           {/* Formulário de contato ou link para WhatsApp */}
         </section>
       </main>
@@ -81,28 +85,28 @@ function App() {
       <footer className="bg-gray-800 text-white p-8 mt-8">
         <div className="container mx-auto max-w-3xl">
           <h3 className="text-xl font-bold mb-4">RODAPÉ & POLÍTICA DE PRIVACIDADE</h3>
-          <h4 className="text-lg font-bold mb-2">Pink Floyd Móveis e Decorações LTDA</h4>
-          <p className="text-sm"><strong>CNPJ:</strong> 68.328.681/0001-55</p>
-          <p className="text-sm"><strong>Razão Social:</strong> PINK FLOYD MOVEIS E DECORACOES LTDA</p>
-          <p className="text-sm"><strong>Data de Abertura:</strong> 14/08/1992</p>
-          <p className="text-sm"><strong>Porte:</strong> Sem Enquadramento</p>
+          <h4 className="text-lg font-bold mb-2">Conspira Pizza Artesanal LTDA</h4>
+          <p className="text-sm"><strong>CNPJ:</strong> 33.093.423/0001-52</p>
+          <p className="text-sm"><strong>Razão Social:</strong> CONSPIRA PIZZA ARTESANAL LTDA</p>
+          <p className="text-sm"><strong>Data de Abertura:</strong> 20/03/2019</p>
+          <p className="text-sm"><strong>Porte:</strong> Micro Empresa</p>
           <p className="text-sm"><strong>Natureza Jurídica:</strong> Sociedade Empresária Limitada</p>
           <p className="text-sm"><strong>Situação Cadastral:</strong> Ativa</p>
           <p className="text-sm"><strong>Tipo:</strong> Matriz</p>
-          <p className="text-sm"><strong>Capital Social:</strong> R$ 10.000,00</p>
-          <p className="text-sm"><strong>Endereço:</strong> Rua Renato Rinaldi, 1012, Vila Carrão, São Paulo-SP</p>
+          <p className="text-sm"><strong>Capital Social:</strong> R$ 20.000,00</p>
+          <p className="text-sm"><strong>Endereço:</strong> Rua General Braulio Guimaraes, 322, Jardim Promissao, São Paulo-SP</p>
           <p className="text-sm"><strong>CEP:</strong> 03426-000</p>
-          <p className="text-sm"><strong>E-mail:</strong> mariana.33de.carvalho@outlook.com</p>
-          <p className="text-sm"><strong>Telefone/WhatsApp:</strong> (11) 94098-2632</p>
-          <p className="text-sm italic mt-4">Transformando ambientes com estilo e qualidade desde 1992</p>
+          <p className="text-sm"><strong>E-mail:</strong> contate@corssar.com</p>
+          <p className="text-sm"><strong>Telefone/WhatsApp:</strong> (31) 973198749</p>
+          <p className="text-sm italic mt-4">Transformando momentos com sabor e qualidade desde 2019</p>
 
           <h4 className="text-lg font-bold mt-8 mb-2">POLÍTICA DE PRIVACIDADE</h4>
-          <p className="text-sm"><strong>Pink Floyd Móveis e Decorações LTDA</strong></p>
-          <p className="text-sm"><strong>CNPJ:</strong> 68.328.681/0001-55</p>
-          <p className="text-sm"><strong>Endereço:</strong> Rua Renato Rinaldi, 1012, Vila Carrão, São Paulo-SP, CEP 03426-000</p>
+          <p className="text-sm"><strong>Conspira Pizza Artesanal LTDA</strong></p>
+          <p className="text-sm"><strong>CNPJ:</strong> 33.093.423/0001-52</p>
+          <p className="text-sm"><strong>Endereço:</strong> Rua General Braulio Guimaraes, 322, Jardim Promissao, São Paulo-SP, CEP 04753-140</p>
 
           <h5 className="text-md font-bold mt-4 mb-2">1. Finalidade</h5>
-          <p className="text-sm">Esta política descreve como coletamos, utilizamos e protegemos os dados pessoais dos clientes que interagem conosco por meio de WhatsApp, e-mail, telefone, redes sociais ou durante visitas à nossa loja física.</p>
+          <p className="text-sm">Esta política descreve como coletamos, utilizamos e protegemos os dados pessoais dos clientes que interagem conosco por meio de WhatsApp, e-mail, telefone, redes sociais ou durante visitas à nossa pizzaria.</p>
 
           <h5 className="text-md font-bold mt-4 mb-2">2. Dados Coletados</h5>
           <ul className="list-disc list-inside text-sm ml-4">
@@ -166,10 +170,10 @@ function App() {
           <h5 className="text-md font-bold mt-4 mb-2">8. Contato</h5>
           <p className="text-sm">Dúvidas ou solicitações sobre seus dados?</p>
           <ul className="list-disc list-inside text-sm ml-4">
-            <li><strong className="font-bold">WhatsApp:</strong> (11) 94098-2632</li>
-            <li><strong className="font-bold">E-mail:</strong> mariana.33de.carvalho@outlook.com</li>
+            <li><strong className="font-bold">WhatsApp:</strong> (31) 973198749</li>
+            <li><strong className="font-bold">E-mail:</strong> contate@corssar.com</li>
           </ul>
-          <p className="text-sm mt-4">© 2024 Pink Floyd Móveis e Decorações LTDA. Todos os direitos reservados.</p>
+          <p className="text-sm mt-4">© 2024 Conspira Pizza Artesanal. Todos os direitos reservados.</p>
         </div>
       </footer>
     </div>
